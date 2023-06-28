@@ -8,6 +8,8 @@ set __fish_git_prompt_color_branch cyan
 set __fish_git_prompt_color_stagedstate yellow
 set __fish_git_prompt_color_cleanstate green
 
+set fish_prompt_pwd_dir_length 0
+
 function fish_prompt --description 'Write out the prompt'
     set exit_status $status
 
