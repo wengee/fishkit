@@ -11,6 +11,7 @@ if status is-interactive
     alias vi=vim
     alias initwsl="sudo /etc/wsl.init"
     alias redis=redis-cli
+    alias myip="curl http://myip.ipip.net/"
 
     set -gx EDITOR vim
 end
