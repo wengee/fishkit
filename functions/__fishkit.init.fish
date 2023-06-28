@@ -16,6 +16,6 @@ function __fishkit.init
     
         set -gx EDITOR vim
 
-        abbr -a -g ggpull git pull origin (__git.current_branch)
+        abbr -a -g ggpull git pull origin \(__git.current_branch\)
     end
 end
