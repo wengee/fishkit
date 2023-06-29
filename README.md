@@ -10,5 +10,5 @@ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fi
 
 2. 安装 [plugin-git](https://github.com/jhillyerd/plugin-git)
 ```fish
-$ fisher install jhillyerd/plugin-git
+fisher install jhillyerd/plugin-git
 ```
