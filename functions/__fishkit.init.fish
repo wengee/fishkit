@@ -20,7 +20,7 @@ function __fishkit.init
         alias myip="curl http://myip.ipip.net/"
     
         set -gx EDITOR vim
-        set -gx PATH . $HOME/.local/bin $HOME/.yarn/bin $HOME/.config/composer/bin $PATH
+        set -gx PATH . $HOME/.local/bin $HOME/.yarn/bin $HOME/.config/composer/bin $HOME/.composer/vendor/bin $PATH
 
         abbr -a -g ggpull git pull origin \(__git.current_branch\)
         abbr -a -g gr git remote
