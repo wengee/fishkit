@@ -3,16 +3,10 @@ function __fishkit.init
         if status is-login
             cd $HOME
         end
-    
+
         alias notepad="/mnt/c/Windows/notepad.exe"
         alias open="/mnt/c/Windows/explorer.exe"
 
-        if test -e /mnt/d/Scoop/apps/vscode/current/bin/code
-            alias code="/mnt/d/Scoop/apps/vscode/current/bin/code"
-        else
-            alias code="/mnt/d/Program\ Files/VSCode/bin/code"
-        end
-    
         alias root="sudo su -"
         alias vi=vim
         alias initwsl="sudo /etc/wsl.init"
