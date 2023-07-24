@@ -1,12 +1,12 @@
-set __fish_git_prompt_show_informative_status true
-set __fish_git_prompt_showupstream true
+set -g __fish_git_prompt_show_informative_status true
+set -g __fish_git_prompt_showupstream true
 
-set __fish_git_prompt_char_stateseparator ' '
+set -g __fish_git_prompt_char_stateseparator ' '
 
-set __fish_git_prompt_showcolorhints true
-set __fish_git_prompt_color_branch cyan
-set __fish_git_prompt_color_stagedstate yellow
-set __fish_git_prompt_color_cleanstate green
+set -g __fish_git_prompt_showcolorhints true
+set -g __fish_git_prompt_color_branch cyan
+set -g __fish_git_prompt_color_stagedstate yellow
+set -g __fish_git_prompt_color_cleanstate green
 
 set -g fish_prompt_pwd_dir_length 0
 
